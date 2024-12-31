@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Pedro Segundo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+                        
+            background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+            background-color: #4979a8f6;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+
+        header {
+            text-shadow: 4px 4px 9px #041b31;
+            background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+            position: fixed;
+
+            background-color: #4979a8f6;
+            height: 110px;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: #3b6081;
+            border-bottom-style: solid;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .conteudo p {
+            margin-bottom: 15px; 
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+            margin-top: 150px;
+        }
+
+        h1  {
+            align-items: center;
+            text-align: center;font-size: xx-large;
+            text-shadow: 4px 4px 9px #041b31;
+            
+        }
+
+        .menu {
+            color: white;
+            width: 20%;
+            background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+            background-color: #4979a8d2;
+            position: fixed;
+            top: 110px; 
+            height: calc(100vh - 150px);
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .conteudo {
+            background-color:  #4979a89d;
+            margin-left: 20%; 
+            width: 80%;
+            padding: 5%;
+            background-color: #4979a850;
+            overflow-y: auto;
+            font-size: larger;
+            text-indent: 6%;
+            text-align: justify;
+            color: rgb(255, 255, 255);
+            display: grid;
+            gap: 20px;
+            grid-template-columns: auto;
+        }
+
+        footer {
+            height: 50px;
+            font-size: larger;
+            color: white;
+            background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+            background-color: #19395a;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        .imagens {
+    justify-content: center;
+    align-items: center;
+        }
+
+
+figure {
+    margin: 0; 
+    text-align: center;
+}
+
+img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+img {
+    display: inline-block; 
+    max-width: 100%;
+    height: auto;
+}
+
+        .caption {
+            color: black;
+            font-size: smaller;
+    
+
+        }
+
+        
+        .menu a {
+            display: flex;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color:#ffffff;
+            background: linear-gradient(60deg, rgba(65, 112, 126, 0.788), rgb(76, 133, 145), rgb(48, 101, 133)  );
+            height: 40px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            border: 3px #041b31;
+        }
+
+
+        .menu a:hover {
+            height: 45px;
+            font-weight: bold;
+            border-radius: 15px;
+            text-align: center;
+            color: #ffffff;
+            background: linear-gradient(60deg, rgb(6, 95, 122), rgb(98, 142, 150), rgb(12, 72, 107)  );
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <header style="display: flex;">
+        <div>
+        <figure style="align-items: center;">
+            <img width="50 " src="https://pt.wikipedia.org/static/images/icons/wikipedia.png" alt="logo da wikipedia">
+            <img width="150 " src="https://pt.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" alt="wikipedia">
+        </figure>
+    </div>
+    <div style="margin-left: 15%;">
+        <h2>Dom Pedro II</h2>
+        <h3 style="color: white;">História e Legado do Segundo Imperador do Brasil</h3>
+    </div>
+    </header>
+    <main>
+        <nav class="menu">
+            <h1>Menu</h1>
+            <a href="#">Infância e Ascensão ao Trono</a>
+            <a href="#reinado">Reinado e Modernização do Brasil</a>
+            <a href="#abolicao">Abolição da Escravatura e Fim da Monarquia</a>
+            <a href="#legado">Exílio e Legado</a>
+            <div id="dadosDPII">
+                <h1>Dom Pedro II</h1>
+
+                <figure style="align-items: center;">
+                    <img style="height: 250px;" alt="retrato de dom pedro segundo criança" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pedro_II_of_Brazil_-_Brady-Handy.jpg/245px-Pedro_II_of_Brazil_-_Brady-Handy.jpg">
+                    <figcaption class="caption">Retrato de Dom Pedro II (1887). </figcaption>
+                </figure>
+
+
+ 
+        </div  id="infancia">
+        </nav>
+        <div class="conteudo"> <section>
+            <h1>Infância e Ascensão ao Trono</h1>
+            <br><br>
+            <p>Dom Pedro II nasceu em 2 de dezembro de 1825, no Palácio de São Cristóvão, Rio de Janeiro, Brasil. Ele era filho de Dom Pedro I e da Imperatriz Maria Leopoldina da Áustria. Sua infância foi marcada por desafios pessoais e políticos, incluindo a abdicação de seu pai ao trono em 7 de abril de 1831. Com apenas cinco anos de idade, Pedro foi declarado imperador do Brasil, mas devido à sua menoridade, o país passou a ser governado por regentes. Durante esse período, o Brasil enfrentou instabilidade política, com várias revoltas regionais e disputas entre facções políticas. Essa conjuntura representava um desafio para a jovem monarquia e reforçava a necessidade de estabilidade sob a futura liderança de Pedro II.</p>
+            <br>
+            <figure class="imagens">
+                <img  alt="retrato de dom pedro segundo em sua coroação" src=data:image/jpeg;base64,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>
+                <figcaption class="caption">Retrato de Dom Pedro II (1887). Fonte: Wikimedia Commons</figcaption>
+            </figure>
+            <br><br>
+
+            <p>Desde cedo, Pedro II demonstrou interesse pelos estudos, recebendo uma educação rigorosa ministrada por tutores renomados. Ele foi instruído em línguas, ciências, história e artes, desenvolvendo um apreço por literatura e música. Entre os idiomas que dominava estavam o francês, inglês, alemão e latim, além do português. A dedicação aos estudos não apenas preparou Pedro para governar, mas também moldou sua personalidade e estilo de liderança, marcados por um profundo respeito pelo conhecimento e pela cultura. Durante a infância, ele enfrentou períodos de solidão e pressão, pois havia uma enorme expectativa sobre como ele lidaria com as responsabilidades de liderar um império.</p>
+            <p>Em 23 de julho de 1840, aos 14 anos de idade, Pedro II foi declarado maior de idade em uma decisão política conhecida como "Golpe da Maioridade". A medida foi uma solução encontrada pelos líderes políticos para conter a instabilidade que ameaçava a integridade do Império. Assim, ele foi coroado em 18 de julho de 1841, em uma cerimônia repleta de simbolismo, representando o início de um longo reinado que seria marcado por sua busca pela modernização e pela consolidação da unidade nacional. Apesar da pouca idade, Pedro II assumiu o trono com grande senso de dever e rapidamente começou a trabalhar para pacificar o país.</p>
+            <br><br>
+            <p>Dom Pedro II nasceu em 2 de dezembro de 1825, no Palácio de São Cristóvão, Rio de Janeiro, Brasil. Ele era filho de Dom Pedro I e da Imperatriz Maria Leopoldina da Áustria. Sua infância foi marcada por desafios pessoais e políticos, incluindo a abdicação de seu pai ao trono em 7 de abril de 1831. Com apenas cinco anos de idade, Pedro foi declarado imperador do Brasil, mas devido à sua menoridade, o país passou a ser governado por regentes. Durante esse período, o Brasil enfrentou instabilidade política, com várias revoltas regionais e disputas entre facções políticas. Essa conjuntura representava um desafio para a jovem monarquia e reforçava a necessidade de estabilidade sob a futura liderança de Pedro II.</p>
+            <br>
+            <figure class="imagens">
+                <img src=data:image/jpeg;base64,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>
+                <figcaption class="caption">Dom Pedro II na coroação — Foto: François René Moreaux/Museu Imperial
+                </figcaption>
+            </figure>
+            <br><br>
+
+            <p>O jovem monarca demonstrou maturidade precoce e habilidade para mediar conflitos. Sob sua liderança, a monarquia adquiriu maior estabilidade, permitindo que o Brasil iniciasse um processo de desenvolvimento econômico e social. Sua infância e ascensão ao trono são frequentemente lembradas como um período de superação e formação de caráter, fatores que contribuíram significativamente para o sucesso de seu governo ao longo das décadas seguintes. A combinação de educação refinada, senso de justiça e dedicação ao bem público fez com que Pedro II se tornasse uma figura respeitada tanto no Brasil quanto no cenário internacional.</p>
+            <br><br><br><br><br  id="reinado"><br><br><br>
+        </section>
+
+        <section>
+            <h1>Reinado e Modernização do Brasil</h1>
+            <br><br>
+            <p>O reinado de Dom Pedro II, de 1841 a 1889, foi um período de grandes transformações no Brasil. Ele se destacou por incentivar o desenvolvimento de infraestruturas como ferrovias, telégrafos e sistemas de navegação a vapor. Essas inovações foram fundamentais para integrar o vasto território brasileiro e promover o crescimento econômico. Pedro II também valorizava a educação e a cultura, sendo um dos principais incentivadores da fundação de instituições como o Instituto Histórico e Geográfico Brasileiro e o Colégio Pedro II.</p>
+            <br>
+            <figure class="imagens">
+                <img alt="foro da inauguração de um tuneo em uma estrada de ferro que ligava os estados de minas gerais e o rio de janeiro" src=https://static.preparaenem.com/conteudo_legenda/32cc11b81bfd7b6f3186796669d755ca.jpg>
+                <figcaption class="caption">D. Pedro II na inauguração do Túnel da Mantiqueira da Estrada de Ferro que ligava o Rio de Janeiro a Minas Gerais.
+                </figcaption>
+            </figure>
+            <br><br>
+            <p>Durante seu governo, o Brasil viveu um período de relativa paz interna, com exceção de algumas revoltas regionais. Além disso, Dom Pedro II desempenhou um papel crucial na abolição da escravidão, apoiando iniciativas que culminaram na assinatura da Lei Áurea em 1888. Apesar disso, as tensões políticas e sociais se intensificaram, levando ao declínio da monarquia.</p>
+            <br><br><br id="abolicao"><br><br><br>
+        </section>
+
+        <section>
+            <h1>Abolição da Escravatura e Fim da Monarquia</h1>
+            <br><br>
+            <p>A luta pela abolição da escravidão foi um dos maiores marcos do reinado de Dom Pedro II. Embora ele não tenha liderado diretamente o movimento abolicionista, apoiou políticas que enfraqueciam gradualmente o sistema escravista, como a Lei do Ventre Livre em 1871 e a Lei dos Sexagenários em 1885. Sua filha, a Princesa Isabel, teve um papel de destaque nesse processo ao assinar a Lei Áurea em 1888, extinguindo a escravidão no Brasil.</p>
+            <p>Apesar do impacto positivo da abolição, o evento intensificou a insatisfação entre as elites agrárias, que dependiam do trabalho escravo. Essa insatisfação, aliada ao crescente apoio ao republicanismo entre os militares e setores urbanos, resultou na Proclamação da República em 15 de novembro de 1889. Dom Pedro II foi deposto e exilado para a Europa, encerrando a era monárquica no Brasil.</p>
+            <br>
+            <figure class="imagens">
+                <img alt="foto do jornal carioca a gazeta com a impressão da lei aurea" src=https://static.todamateria.com.br/upload/13/de/13demaio-cke.jpg>
+                <figcaption class="caption">Edição do jornal carioca "Gazeta de Notícias" de 13 de maio de 1888
+                </figcaption>
+            </figure>
+            <br><br>
+
+
+            <br><br><br id="legado"><br><br><br>
+        </section>
+
+        <section>
+            <h1>Exílio e Legado</h1>
+            <br><br>
+            <p>Após ser deposto, Dom Pedro II e sua família partiram para o exílio na Europa. Ele viveu seus últimos anos na França, onde se dedicou a estudos e leituras. Mesmo no exílio, Pedro II continuou a ser respeitado internacionalmente por sua postura digna e erudita. Ele faleceu em 5 de dezembro de 1891, no Hotel Bedford, em Paris. Seu corpo foi sepultado inicialmente em Lisboa, Portugal, e posteriormente transferido para o Brasil em 1921, sendo enterrado na Catedral de São Pedro de Alcântara, em Petrópolis.</p>
+            <p>O legado de Dom Pedro II é amplamente reconhecido. Ele é lembrado como um governante íntegro, comprometido com a modernização do Brasil e com valores humanitários. Sua atuação em prol da educação, ciência e cultura deixou marcas profundas na história do país, sendo considerado por muitos como um dos maiores estadistas do Brasil.</p>
+            <br>
+            <figure class="imagens" style="filter: brightness(0.75) contrast(1.2);">
+                <img alt="Foto da familia real antes do exílio em 1889" src=https://s.ebiografia.com/img/dp/ed/d_pedro_ii_e_fama_lia_3.jpg?auto_optimize=low>
+                <figcaption class="caption">A família imperial em Petrópolis (1889)
+                </figcaption>
+            </figure>
+            <br><br>
+       
+        </section></div>
+    </main>
+
+
+    <footer>
+        <p>Projeto de modernização do Wikipedia proposto pela DIO. <strong><i> Desenvolvido por André A. Mendes</i></strong></p>
+    </footer>
+</body>
+</html>
